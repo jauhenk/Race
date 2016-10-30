@@ -1,0 +1,25 @@
+{
+  "name": "race",
+  "version": "0.0.1",
+  "description": "Race game",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "ws": "^1.1.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jauhenk/Race.git"
+  },
+  "author": "jauhenkarmyzau@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jauhenk/Race/issues"
+  },
+  "homepage": "https://github.com/jauhenk/Race#readme"
+}
