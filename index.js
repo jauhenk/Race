@@ -2,10 +2,14 @@
 
 // Load third-party modules
 var express = require('express');
-var http = require('http');
+const http = require('http');
 
 // Start the HTTP server using express
-var app = express();
-var httpServer = http.createServer(app);
+const app = express();
+const httpServer = http.createServer(app);
 httpServer.listen(process.env.PORT);
 console.log('Started HTTP Server on ' + process.env.PORT + ' port');
+
+// Setup routes
+var router = require('./server/router');
+router(app, __dirname);
